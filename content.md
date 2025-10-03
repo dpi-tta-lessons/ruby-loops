@@ -64,6 +64,8 @@ puts ('a'..'d').to_a # => ["a", "b", "c", "d"]
 
 ### 1. `loop do`
 
+`loop do` is the simplest loop in ruby. Any code you put inside the `do..end` block will run until you hit the `break` keyword.
+
 ```ruby
 i = 0
 loop do
@@ -79,6 +81,8 @@ end
 </aside>
 
 ### 2. `while` loop
+
+`while` loops rely on a condition. They are kind of like an `if` condition, but they run the code inside `do...end` while the condition is `true`.
 
 ```ruby
 i = 0
@@ -103,7 +107,7 @@ puts "You got it!"
 
 ### The `until` loop
 
-The until loop is the opposite of the while loop. A while loop continues for as long as the condition is true, whereas an until loop continues for as long as the condition is false.
+The `until` loop is the opposite of the while loop. A while loop continues for as long as the condition is true, whereas an `until` loop continues for as long as the condition is false.
 
 ```ruby
 i = 0
@@ -127,12 +131,16 @@ end
 
 ### The `times` loop
 
+The `times` loop is a nice feature of Ruby. Since integers (like `5`) are objects, we can call the `times` method and loop through that many times. `5.times` means: "run this block 5 times."
+
 ```ruby
 5.times do
   puts "Hello, world!"
 end
 ```
 {: .repl }
+
+In this loop, the `|number|` part is called a *block parameter*. On each iteration, Ruby passes the current iteration index (starting at 0) into the block parameter.
 
 ```ruby
 5.times do |number|
