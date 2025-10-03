@@ -13,7 +13,7 @@ By the end of this lesson you’ll be able to:
 - Pick the most readable loop for a task
 - Combine loops with assignment to build small programs
 
-<div>
+<div class="alert alert-info">
   <ul>
     <li><a href="https://www.youtube.com/watch?v=vVATMe9XDdA">Video (with Amanda)</a></li>
     <li><a href="https://www.youtube.com/watch?v=ftq_subpJ40">Video (with Benny)</a></li>
