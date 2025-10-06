@@ -105,7 +105,7 @@ puts "You got it!"
 ```
 {: .repl }
 
-### The `until` loop
+### 3. The `until` loop
 
 The `until` loop is the opposite of the while loop. A while loop continues for as long as the condition is true, whereas an `until` loop continues for as long as the condition is false.
 
@@ -118,7 +118,7 @@ end
 ```
 {: .repl }
 
-### The `for` loop
+### 4. The `for` loop
 
 A `for` loop is used to iterate through a collection of information such as an array or range.
 
@@ -129,7 +129,7 @@ end
 ```
 {: .repl }
 
-### The `times` loop
+### 5. The `times` loop
 
 The `times` loop is a nice feature of Ruby. Since integers (like `5`) are objects, we can call the `times` method and loop through that many times. `5.times` means: "run this block 5 times."
 
